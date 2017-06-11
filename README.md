@@ -32,5 +32,8 @@ Sascha Zarhuber
 ## License
 MIT
 
+## References
+The algorithm for the sieve of Atkin was taken from @kramtark's gist and can be viewed here: [https://gist.github.com/kramtark/277c0657530572e92c48](https://gist.github.com/kramtark/277c0657530572e92c48)
+
 ## Changelog
  * **1.0.0**: Initial version, containing the root endpoint: `/`
