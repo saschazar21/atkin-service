@@ -3,6 +3,7 @@
 /**
  * Import necessary node modules
  */
+require('dotenv').config();         // Loads environment variables specified in .env
 const express = require('express');
 const morgan = require('morgan');
 
