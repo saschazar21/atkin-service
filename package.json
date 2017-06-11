@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  },
+  "name": "atkin-service",
+  "version": "1.0.0",
+  "description": "A web service for retrieving primes using the sieve of atkin.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saschazar21/atkin-service.git"
+  },
+  "keywords": [
+    "atkin",
+    "express",
+    "http",
+    "rest",
+    "api",
+    "primes",
+    "child_process"
+  ],
+  "author": "Sascha Zarhuber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saschazar21/atkin-service/issues"
+  },
+  "homepage": "https://github.com/saschazar21/atkin-service#readme"
+}
